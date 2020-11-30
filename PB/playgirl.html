@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>PlayBOY JOIN</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+<!-- bs4 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- fontawesome -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<!-- additional -->
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<center>
+<h1>Fill The Form</h1>
+<hr>
+<br>
+<br>
+<div class="first">
+	<h1>Are You 18+ ??</h1>
+	<button onclick="first()" class="btn btn-success">Yes</button>
+	<button class="btn btn-danger">No</button>
+</div>
+<script type="text/javascript">
+	function first(argument) {
+		// body...
+		document.getElementById('ad').style.display="block";
+	}
+</script>
+<div style="display: none; height: 100px; width: 100px; padding: 100px; margin: 100px;" class="ad" id="ad">
+	<!-- ---blank -->
+	<button class="btn btn-secondary" onclick="sec()">Close Ad x</button>
+</div>
+<script type="text/javascript">
+	function sec(argument) {
+		// body...
+		document.getElementById('jo').style.display="block";
+		document.getElementById('ad').style.display="none";
+	}
+</script>
+<div class="yes" id="jo" style="display: none;">
+	<h1>Want To Join Playgirl Club??</h1>
+	<button onclick="yes1()" class="btn btn-success">Yes</button>
+	<button class="btn btn-danger">No</button>
+</div>
+<div style="display: none; height: 100px; width: 100px; padding: 100px; margin: 100px;" class="ad" id="ad1">
+	<!-- ---blank -->
+	<button class="btn btn-secondary" onclick="sec1()">Close Ad x</button>
+</div>
+<script type="text/javascript">
+	function yes1(argument) {
+		// body...
+		document.getElementById('ad1').style.display="block";
+	}
+</script>
+<script type="text/javascript">
+	function sec1(argument) {
+		// body...
+		document.getElementById('joi').style.display="block";
+		document.getElementById('ad1').style.display="none";
+	}
+</script>
+<div class="yes1" id="joi" style="display: none;">
+	<h1>Notice: If You Join Our Club So This Website Not Responsible For Any illegal Activity</h1>
+	<p>We Never Get Your Money get Number and Join Directly .. </p>
+		
+	<a class="btn btn-success" href="agree.html">Agree??</a>
+</div>
+</center>
+<!-- -- -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
